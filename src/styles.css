@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.transfer {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
+  grid-gap: 10px;
+  min-width: 300px;
+}
+
+.transfer__buttons {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.transfer__list {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.transfer__list-ul {
+  border: 1px solid lightgray;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.transfer__list-list-item:nth-child(odd) {
+  background: lightgray;
+}
+
+.transfer__list-list-item {
+  flex
+}
